@@ -41,4 +41,27 @@ print(type(City))
 #  We call the function and method in different ways:
 # ----- Calling method 
 #  L.append(1) : this is a method
-#  
+#  Method can only be accessed by the object of that class.
+
+
+# IN class whenever we declared variables we have to create them inside __init__ Method 
+
+
+
+#  __init__ :
+        #   ---init is the constructor
+        #  constructor is a special method jiske andr rkha huwa code automatically execute hota hai jesay hi hum us class ka object bnatay hain.
+
+#  Example 
+
+class New:
+
+    def __init__(self):
+        print("hello")
+    def menu(self):
+        pass
+
+sbi = New()
+
+# as I created this object sbi or class New() it prints hello automatically.
+
