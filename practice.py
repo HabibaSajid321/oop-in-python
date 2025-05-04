@@ -51,7 +51,9 @@ print(type(City))
 #  __init__ :
         #   ---init is the constructor
         #  constructor is a special method jiske andr rkha huwa code automatically execute hota hai jesay hi hum us class ka object bnatay hain.
-
+        # some methods in python are called special/Magic/Dunder methods
+        # Constructor is one of the magic methods in python. There are alot more magic methods in python. their syntax is like __method__.
+        # all thes are pre-defined
 #  Example 
 
 class New:
