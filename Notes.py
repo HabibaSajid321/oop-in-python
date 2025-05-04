@@ -48,7 +48,8 @@ print(type(City))
 
 
 
-#  __init__ :
+                   #  __init__ :
+
         #   ---init is the constructor
         #  constructor is a special method jiske andr rkha huwa code automatically execute hota hai jesay hi hum us class ka object bnatay hain.
         # some methods in python are called special/Magic/Dunder methods
@@ -66,4 +67,21 @@ class New:
 sbi = New()
 
 # as I created this object sbi or class New() it prints hello automatically.
+
+# we use contructor if we do not want to share the control of something with user.
+# We do configuration like tasks in constructor.
+
+
+
+        #    SELF keyword
+# Self is the object 
+# class mai har object hi self hai. For every object there is a uniqie id of self same as the name of object.
+# Jis object k sth abhi kam kr rhay ho wahi self hai 
+
+# Why do we need self:
+#  Concept 1:
+# OOP ka fundamental concep is class mai data or methods hotay hain or in dono ko access srf class ka object kr skta hai.
+# Concept 2:
+# Class mai khud ek method apne class k dosre method ya data ko access nhi kr skta 
+# But jaha pe hmai ek mothod ko dosre method ko access krna hoga or wo object yaha self k through aayga.
 
