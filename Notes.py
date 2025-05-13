@@ -85,3 +85,11 @@ sbi = New()
 # Class mai khud ek method apne class k dosre method ya data ko access nhi kr skta 
 # But jaha pe hmai ek mothod ko dosre method ko access krna hoga or wo object yaha self k through aayga.
 
+
+                            # Instance Variable 
+# The variables we create inside a class are called instance variables. and for each object their value is changing
+
+#                             Reference variable
+# object create krtay time hum object ko jis variable mai store krtay hain is called reference variable
+# Example : habiba = Atm() 
+# habiba is the reference variable here.
